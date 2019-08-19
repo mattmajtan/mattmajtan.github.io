@@ -1,0 +1,46 @@
+.about-main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.mission-section {
+  width: 50vw;
+  height: 50vh;
+  max-width: 50%;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.mission-text {
+  margin: 0;
+}
+
+.mission-description {
+  text-indent: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-section {
+  width: 50vw;
+  height: 50vh;
+  max-width: 50%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.contact-title {
+  margin: 0;
+}
+
+.contact-subtitle {
+  margin-top: 50px;
+}
