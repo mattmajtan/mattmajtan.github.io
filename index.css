@@ -1,0 +1,40 @@
+.home-main-section {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.map-img {
+  width: 40vw;
+  height: 40vh;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+@media (max-width: 620px) {
+  .home-main-section {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .call-to-action {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body {
+    font-size: 0.8em;
+  }
+
+  .map-img {
+    width: 200px;
+    height: 200px; 
+  }
+}
