@@ -116,3 +116,41 @@ body {
     text-align: center;
   }
 }
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-footer a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-footer a:hover{
+  color: #adadad;
+}
+
+.footer-list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-list li {
+  margin: 20px;
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact p {
+  margin: 20px;
+}
+
+.address:hover {
+  color: #adadad;
+}
