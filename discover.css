@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   flex-grow: 1;
+  height: 60vh;
 }
 
 .choice-title {
@@ -68,5 +69,9 @@
 @media (max-width: 620px) {
   .choice-section {
     flex-direction: column;
+  }
+
+  .choice-title {
+    text-align: center;
   }
 }

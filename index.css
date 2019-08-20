@@ -3,6 +3,7 @@
   justify-content: stretch;
   align-items: center;
   flex-grow: 1;
+  height: 60vh;
 }
 
 .map-img {

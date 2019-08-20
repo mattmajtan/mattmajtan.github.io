@@ -104,7 +104,8 @@ body {
   }
 
   .main-header {
-    margin-top: 20px;
+    margin-top: 0px;
+    height: 120px;
   }
 
   .title {
@@ -115,12 +116,25 @@ body {
   .subtitle {
     text-align: center;
   }
+
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-title {
+    margin: 0 auto;
+    height: 20vh;
+  }
 }
 
 .main-footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  height: 140px;
+  flex-grow: 1;
+  max-width: 1200px;
 }
 
 .main-footer a {
