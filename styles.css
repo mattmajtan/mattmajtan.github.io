@@ -123,7 +123,7 @@ body {
   justify-content: space-between;
 }
 
-.main-footer a{
+.main-footer a {
   text-decoration: none;
   color: inherit;
 }
@@ -136,6 +136,8 @@ body {
   display: flex;
   list-style: none;
   text-decoration: none;
+  justify-content: space-between ;
+  padding: 0;
 }
 
 .footer-list li {
