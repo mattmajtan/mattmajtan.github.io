@@ -22,7 +22,15 @@
 }
 
 .from-section {
+  display: flex;
+}
+
+.from-section a {
   margin-top: 20px;
   text-decoration: none;
   color: inherit;
+}
+
+.from-section a:hover {
+  color: #adadad;
 }
