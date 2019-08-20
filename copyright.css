@@ -1,0 +1,28 @@
+.main-section {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contributors-section {
+  display: flex;
+  font-size: 30px;
+}
+
+.contributors-section a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.contributors-section a:hover {
+  color: #adadad;
+}
+
+.from-section {
+  margin-top: 20px;
+  text-decoration: none;
+  color: inherit;
+}

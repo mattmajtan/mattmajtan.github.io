@@ -1,14 +1,13 @@
 .about-main-section {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: stretch;
   align-items: center;
   flex-grow: 1;
 }
 
 .mission-section {
-  width: 50vw;
-  height: 50vh;
+  width: 100%;
+  height: 100%;
   max-width: 50%;
   margin-right: 50px;
   display: flex;
@@ -27,8 +26,8 @@
 }
 
 .contact-section {
-  width: 50vw;
-  height: 50vh;
+  width: 100%;
+  height: 100%;
   max-width: 50%;
   margin-left: 50px;
   display: flex;
@@ -39,8 +38,44 @@
 
 .contact-title {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .contact-subtitle {
   margin-top: 50px;
 }
+
+.adventure-img {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.adventure-img img {
+  margin: 5px;
+  height: 50%;
+  width: 50%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+@media (max-width: 768px) {
+  .upper-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lower-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
